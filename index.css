@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+}
+nav.header{
+    height:70px;
+}
+a.navbar-brand{
+    height:70px;
+    width:24.3vw;
+    background:#464b50;
+    margin:-20px -14px;
+    position: relative;
+}
+a.navbar-brand img{
+    position: relative;
+    left:10px;
+    top:5px;
+}
+a.lock.link{
+    padding:15px 10px;
+    border:1px #7e7e7e solid;
+    border-radius: 5px;
+}
+div.sidebar div.list-group{
+    width:100%;
+    border-radius: 0px !important;
+    position: relative;
+    left:-10px;
+}
+a.list-group-item.list-group-item-action{
+    width:108%;
+    border:none;
+}
+a.list-group-item.list-group-item-action.active{
+    background:#ededed;
+    color:initial;
+    border:none;
+}
+div.list-group img.grtrthn,svg.grtrthn{
+    position: absolute;
+    left:92%;
+    top:40%;
+}
+span.listItem{
+    position: relative;
+    left:10px;
+}
+div.sidebar{
+    width:15vw !important;
+}
+div.content{
+    background:#faf9f9;
+}
+div.content div.row div.buttons{
+    text-align: right;
+}
+div.collapse input{
+    margin: 10px !important;
+}
+div.collapse{
+    background:white;
+}
+div.enquiries > div,div.detailedEnquiries div.col-4 > div{
+    height:160px;
+    width:97%;
+    background:white;
+    border-top:1px solid #bebebe;
+    border-bottom:1px solid #bebebe;
+    margin:10px;
+}
+div.detailedEnquiries div.col{
+    height:800px;
+    overflow-y: scroll;
+}
+div.enquiries div.container div.row{
+    margin-top:10px;
+}
+div.enquiries div.col-9{
+    text-align: right;
+}
+div.enquiries div.container:hover,div.detailedEnquiries div.col-4 div.container:hover{
+    cursor: pointer;
+    border:2px solid black;
+}
+div.detailedEnquiries div.container.active{
+    border:2px solid greenyellow;
+}
+span.username{
+    font-size:medium;
+}
+div.userinfo div.col-3,div.userinfo div.col-4{
+    background:#dfdfdf;
+    padding:20px;
+    color:#5e5e5e;
+    font-weight: lighter;
+    border-right:1px solid #ededed;
+    border-left:1px solid #ededed;
+    height:40px;
+}
+div.userinfo div.col-3 span,div.userinfo div.col-4 span{
+    position: relative;
+    top:-10px;
+}
+div.alert.note{
+    margin: 5px;
+    background: #f2f3f5;
+}
+div.detailedEnquiries{
+    display: none;
+}
+img.back{
+    position: relative;
+    left:95%;
+    top:-20px;
+}
+img.back:hover{
+    cursor: pointer;
+}
+footer{
+    background:#e7e7e7;
+    width:100%;
+    text-align: center;
+    height:55px;
+}
+footer span{
+    position: relative;
+    top:17px;
+}
+table *{
+    border-collapse: collapse;
+    padding:13px;
+    border:1px solid #d8d7d7;
+}
+table th{
+    background:#ebebeb;
+    width:30% !important;
+}
+table{
+    width:100%;
+}
